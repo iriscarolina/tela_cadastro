@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='_css/style.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src='cadastro.js'></script>
+</head>
+
+<body>
+    <form id="cadastro">
+        <div class="coluna-50">
+            <div id="colunas">
+        <h1>Cadastro de Cliente</h1>
+        <p>
+            <label for='nome'>Nome: </label><br>
+            <input type='nome' id='nome'><br>
+        </p>
+        <p>
+            <label for='email'>E-mail:</label><br>
+            <input type='email' id='email' name='email'><br>
+        </p>
+        <p>
+            <label for="fone">Fone:</label><br>
+            <input type="tel" id="fone" name="fone"><br>
+        </p>
+        <p>
+            <label for="dataNasc">Data de Nasc:</label><br>
+            <input type='Data' id='data' name='data'><br>
+        </p>
+        <p>
+            <label for="CPF">CPF:</label><br>
+            <input type="cpf" id="cpf" name="cpf"><br>
+        </p>
+        <p>
+            <label for="senha">senha:</label><br>
+            <input type="password" id="senha" name="senha"><br>
+            <br><label for="senha2">confirmação de senha: </label><br>
+            <input type="senha2" id="senha2" name="senha2"><br>
+        </p>
+        <!-- <p>
+            <label for="senha"> Confirmação de senha</label>
+            <input type="password" id="senha" name="sneha">
+        </p> -->
+    </div>
+
+        <div id="colunas">
+            <h1>Endereço</h1>
+            <p>
+                <label for="Endereço"> Endereço:</label><br>
+                <input type="endereço" id="endereço" name="endereço"><br>
+            </p>
+            <p>
+                <label for="CEP"> CEP:</label><br>
+                <input type="CEP" id="cep" name="cep"><br>
+            </p>
+            <p>
+                <label for="numero"> Numero:</label><br>
+                <input type="numero" id="numero" name="numero"><br>
+            </p>
+            <p>
+                <label for="complemento"> Complemento:</label><br>
+                <input type="complemento" id="complemento" name="complemento">
+            </p>
+            <p>
+                <label for="bairro"> Bairro:</label><br>
+                <input type="bairro" id="bairro" name="bairro"><br>
+            </p>
+            <p>
+                <label for="cidade"> Cidade:</label><br>
+                <input type="cidade" id="cidade" name="cidade"><br>
+            </p>
+            <p>
+                <label for="estado"> Estado:</label><br>
+                <input type="estado" id="estado" name="estado"><br>
+            </p>
+        </div>
+    </div>
+    <button onclick="Validar ()">Enviar</button>
+     </form>
+    </body>
+</html>
